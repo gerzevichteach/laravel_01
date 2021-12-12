@@ -1,0 +1,46 @@
+div.select{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+div.select{
+    padding: 20px;
+}
+div.select>div.content{
+    margin: 5px;
+}
+div.select>div.content>a{
+    color: black;
+    text-decoration: none;
+}
+div.select>div.content{
+    white-space: normal;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid gray;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+div.select>div.content>a>img{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+div.select>div.content>a:hover{
+    color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ПК~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media (orientation: landscape){
+
+    img.img{
+        max-width: 170px;
+        max-height: 150px;
+    }
+
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~МОБИЛЬНЫЕ УСТРОЙСТВА~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media (orientation: portrait){
+
+    .content{
+        width: 39%;
+    }
+}
